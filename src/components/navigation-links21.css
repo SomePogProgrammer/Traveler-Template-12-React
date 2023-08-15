@@ -1,0 +1,181 @@
+.navigation-links21-nav {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  z-index: 100;
+  max-height: var(--dl-size-size-xsmall);
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links21-text {
+  height: 105%;
+  font-size: 105%;
+  max-height: 105%;
+  text-align: center;
+  transition: 0.3s;
+  margin-left: 2vh;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  text-decoration: none;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+.navigation-links21-text:hover {
+  border-color: black;
+  transition-delay: 0s;
+  border-bottom-width: 5px;
+  transition-duration: 0.05s;
+}
+.navigation-links21-text1 {
+  height: 105%;
+  font-size: 105%;
+  max-height: 105%;
+  text-align: center;
+  transition: 0.3s;
+  margin-left: 2vh;
+  border-width: 1px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+.navigation-links21-text1:hover {
+  border-bottom-width: 5px;
+}
+.navigation-links21-text2 {
+  height: 105%;
+  font-size: 105%;
+  max-height: 105%;
+  text-align: center;
+  transition: 0.3s;
+  margin-left: 2vh;
+  border-width: 1px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+.navigation-links21-text2:hover {
+  border-bottom-width: 5px;
+}
+.navigation-links21-text3 {
+  height: 105%;
+  font-size: 105%;
+  max-height: 105%;
+  text-align: center;
+  transition: 0.3s;
+  margin-left: 2vh;
+  border-width: 1px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+.navigation-links21-text3:hover {
+  border-bottom-width: 5px;
+}
+.navigation-links21-text4 {
+  height: 105%;
+  font-size: 105%;
+  max-height: 105%;
+  text-align: center;
+  transition: 0.3s;
+  margin-left: 2vh;
+  border-width: 1px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+.navigation-links21-text4:hover {
+  border-bottom-width: 5px;
+}
+
+
+
+
+
+
+
+
+.navigation-links21-root-class-name8 {
+  width: 80vh;
+  height: 100%;
+  max-width: 80vh;
+  max-height: 100%;
+}
+.navigation-links21-root-class-name9 {
+  width: 80vh;
+  height: 100%;
+  max-width: 80vh;
+  max-height: 100%;
+}
+.navigation-links21-root-class-name10 {
+  width: 80vh;
+  height: 100%;
+  max-width: 80vh;
+  max-height: 100%;
+}
+
+.navigation-links21-root-class-name12 {
+  width: 80vh;
+  height: 100%;
+  max-width: 80vh;
+  max-height: 100%;
+}
+.navigation-links21-root-class-name13 {
+  width: 80vh;
+  height: 100%;
+  max-width: 80vh;
+  max-height: 100%;
+}
+@media(max-width: 991px) {
+  .navigation-links21-text {
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .navigation-links21-text1 {
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .navigation-links21-text2 {
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .navigation-links21-text3 {
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .navigation-links21-text4 {
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+}
+@media(max-width: 767px) {
+  .navigation-links21-nav {
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  .navigation-links21-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links21-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links21-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links21-text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links21-text4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

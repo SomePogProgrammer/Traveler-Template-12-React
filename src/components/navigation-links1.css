@@ -1,0 +1,138 @@
+.navigation-links1-nav {
+  flex: 0 0 auto;
+  width: 65%;
+  display: flex;
+  border-color: #ffffff;
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg"),linear-gradient(270deg, rgb(19, 132, 221) 0%, rgb(9, 38, 121) 34%, rgb(11, 10, 10) 59%);
+}
+.navigation-links1-about-me {
+  color: rgb(255, 253, 253);
+  width: 20%;
+  height: 53px;
+  font-size: 20px;
+  max-width: 20%;
+  align-self: center;
+  text-align: center;
+  border-color: #fff3f3;
+  border-style: hidden;
+  border-width: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: 0px;
+  padding-right: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.navigation-links1-past-work {
+  color: rgb(255, 253, 253);
+  width: 20%;
+  height: 53px;
+  font-size: 20px;
+  max-width: 20%;
+  align-self: center;
+  text-align: center;
+  border-color: #fff3f3;
+  border-style: hidden;
+  border-width: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: 0px;
+  padding-right: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.navigation-links1-web-development {
+  color: rgb(255, 253, 253);
+  width: 20%;
+  height: 53px;
+  font-size: 20px;
+  max-width: 20%;
+  align-self: center;
+  text-align: center;
+  border-color: #fff3f3;
+  border-style: hidden;
+  border-width: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: 0px;
+  padding-right: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.navigation-links1-contact-me {
+  color: rgb(255, 253, 253);
+  width: 20%;
+  height: 53px;
+  font-size: 20px;
+  max-width: 20%;
+  align-self: center;
+  text-align: center;
+  border-color: #fff3f3;
+  border-style: hidden;
+  border-width: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: 0px;
+  padding-right: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.navigation-links1-behind-the-scenes {
+  color: rgb(255, 253, 253);
+  width: 20%;
+  height: 53px;
+  font-size: 20px;
+  max-width: 20%;
+  align-self: center;
+  text-align: center;
+  border-color: #fff3f3;
+  border-style: hidden;
+  border-width: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: 0px;
+  padding-right: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.navigation-links1-root-class-name {
+  flex: 1;
+  width: 100%;
+  max-width: 100%;
+  background-image: linear-gradient(90deg, rgb(215, 215, 215) 0.00%,rgb(215, 215, 215) 0.00%,rgb(121, 127, 134) 100.00%),linear-gradient(270deg, rgb(19, 132, 221) 0%, rgb(9, 38, 121) 34%, rgb(11, 10, 10) 59%);
+}
+@media(max-width: 991px) {
+  .navigation-links1-about-me {
+    flex: 1;
+  }
+}
+@media(max-width: 767px) {
+  .navigation-links1-nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .navigation-links1-past-work {
+    flex: 1;
+  }
+  .navigation-links1-web-development {
+    flex: 1;
+  }
+  .navigation-links1-contact-me {
+    flex: 1;
+  }
+  .navigation-links1-behind-the-scenes {
+    flex: 1;
+  }
+  .navigation-links1-root-class-name {
+    height: 100%;
+    align-self: flex-start;
+    max-height: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .navigation-links1-nav {
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  .navigation-links1-root-class-name {
+    max-width: 100%;
+  }
+}
